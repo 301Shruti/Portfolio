@@ -320,11 +320,9 @@ button:hover{
     background: gainsbor;
     background-size: cover;
 }
-.contact .me{
-    max-width: 800px;
+.contact .me h2{
+    width: 1130px;
     text-align: center;
-}
-.contact h2{
     font-size: 75px;
     font-weight: 500;
     color: #722f37;
@@ -438,14 +436,7 @@ button:hover{
     transform-style:flat;
     box-shadow: inset;
 } 
-@media screen and (max-width:1129px){
-    html{
-        width:fit-content;
-    }
-    .contact{
-        width: fit-content;
-    }
-}
+
 .thank{
     display: none;
     width: 100%;
@@ -535,5 +526,22 @@ footer p:nth-child(1){
         background-position-x:center;
         background-position-y:center ;
        }
+}
+@media screen and (max-width:1129px){
+    html{
+        width:fit-content;
+    }
+    .contact{
+        width: fit-content;
+    }
+}
+@media only scrren and(max-width:420px){
+    html{
+        width: fit-content;
+    }
+    .contact .contain{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
