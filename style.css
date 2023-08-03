@@ -153,6 +153,11 @@ section{
     width:100%;
     padding:100px 0px;
     background-color: #722f37;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 .about img{
     height:auto;
@@ -163,7 +168,7 @@ section{
     box-shadow:10%;
 }
 .about img:hover{
-    transform:scale(0.9) ;
+    transform:scale(1.2) ;
     transition:.3s;
 }
 .about-text{
@@ -172,21 +177,14 @@ section{
     margin:2px;
     padding:2px;
 }
-.about{
-    width:100%;
-    
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 
-}
 h2{
     color:rgb(235, 232, 232);
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
     text-align: center;
+    margin-top:20px ;
 }
 .about-text h5{
     color:rgb(235, 232, 232);
